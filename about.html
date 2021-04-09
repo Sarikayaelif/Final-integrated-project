@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+
+	<title>Elif Bakery</title>
+	
+	<!--<Link href="css/reset.css" rel="stylesheet" type="text/css" media="screen">-->
+	<Link href="css/main.css" rel="stylesheet" type="text/css" media="screen">
+</head>
+
+<body>
+	<h1 class="hidden">Elif Bakery</h1>
+	<div id="siteContainer">
+		<header id="mainHeader">
+			<nav id="navCon">
+				<h2 class="hidden">Main Navigation</h2>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="menu.html">Menu</a></li>
+					<li><a href="about.html">About Us</a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<main role="main">
+			<div id="mainCon">
+				<section id="aboutUsCon">
+					<article>
+					<h2> About Us</h2>
+					<p>Crazy Cookies Bakery is a family owned and operated business and has a long standing history of distributing ingredients of only the highest quality, with unparalleled service standards. We started out in Turkey, then our family moved to Canada in 2014, and then our first kiosk was opened in June 2015; it offers a homestyle bakery experience in Hyde Park/London area. Crazy Cookies Bakery is about a sense of family and coming together through food, that is why we consider our customer and employees to be family. We strive to serve the highest quality and variety of imported and local foods.
+					</p>
+					</article>
+				</section>
+				
+				<section id="formCon">
+					<h2 class="hidden">Form</h2>
+					<h2>You Can Reach Us</h2>
+					<div id="emailCon">
+						<p>You can email us</p>
+						<form action="form.php" method="post" name="userSingnup">
+							<label for="username">Username:</label>
+							<input type="text" name="username" id="username">
+
+							<label for="userPassword">Password:</label>
+							<input type="text" name="userName" id="userPassword">
+						</form>
+					</div>
+					<div id="notCon">
+						<p>Do you want to recieve notification our new product?</p>
+						<form action="form.php" method="post" name="radiioButtons">
+							<label for="yes">Yes</label>
+							<input type="radio" name="boolean" id="yes">
+
+							<label for="no">No</label>
+							<input type="radio" name="boolean" id="no">
+						</form>
+					</div>
+
+					<div id="messageCon">
+						<form action="form.php" method="post" name="file">
+							<label for="message">Quick Message:</label>
+							<textarea rows="4" cols="25" name="message" id="message"></textarea>
+						</form>
+					</div>
+					<div id="followCon">
+						<p>You Can Follow Us</p>
+						<div id="footerNav1">
+        					<h2 class="hidden">Follow Us</h2>
+							<div class="socialMedia"><img src="images/twitter.svg" alt="twitter" width="20"></div>
+							<div class="socialMedia"><img src="images/facebook.svg" alt="facebook" width="20"></div>
+							<div class="socialMedia"><img src="images/instagram.svg" alt="instagram" width="20"></div>
+        				</div>   
+					</div>
+				</section>
+
+				<section id="contactUsCon">
+					<h2 class="hidden">Contact Information</h2>
+					<h2>Contact Information</h2>
+					<ul>
+						<li><p>Address:  </p><a href="#">London,Ontario</a><img src="images/london_map.jpg" alt="London Map" width="100"></li>
+						<li><p>Phone: </p><a href="#"> 111 222 33 44</a></li>
+						<li><p>E-mail:</p><a href="#">crazycookiesbakery@gmail.com</a></li>
+					</ul>
+				</section>
+			</div>
+		</main>
+
+		<footer id="mainFooter">
+			<h2 class="hidden">Footer</h2>
+			<div id="copyRight"><p>Elif Bakery copyright 2021</p></div>
+			<h3 class="hidden">Copyright</h3>
+
+        	<div id="footerNav">
+        		<h3 class="hidden">Social Media</h3>
+					<div class="socialMedia"><img src="images/twitter.svg" alt="twitter" width="20"></div>
+					<div class="socialMedia"><img src="images/facebook.svg" alt="facebook" width="20"></div>
+					<div class="socialMedia"><img src="images/instagram.svg" alt="instagram" width="20"></div>
+        	</div>   
+        </footer>
+
+	</div>
+	<script src="js/main.js"></script>
+</body>
+</html>
