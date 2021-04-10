@@ -7,8 +7,8 @@ Three pages website with all html, css files and images, logo design.
 # What is inside in this project?
 Content is defined as a bakery website. More than 10 photos was taken and adjusted with photoshop and then saved with proper size, logo was designed in adobe illustrator with proper size, fonts and colors were selected, wireframes and sitemap were prepared, finally html with semantic tags and css with flexbox were written for 3 pages website.
 
-# Project roadmap:
- Guideline Google Doc Link: 
+# Project Roadmap:
+ Roadmap Google Doc Link: 
  https://docs.google.com/document/d/1A1FYwws-aoNyZZ3toYrrSJ2F8xZoSOrc-kNEB8f76hI/edit?usp=sharing
 
 # MIT License
